@@ -12,7 +12,6 @@
 ![PHP](https://img.shields.io/badge/-PHP-777BB4?style=flat-square&logo=php&logoColor=white)
 ![Laravel](https://img.shields.io/badge/-Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
 ![Vue](https://img.shields.io/badge/-Vue-42b883?style=flat-square&logo=vuedotjs&logoColor=white)
-![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white)
 ![Bash](https://img.shields.io/badge/-Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/-k3s-FFC61C?style=flat-square&logo=k3s&logoColor=black)
 ![FluxCD](https://img.shields.io/badge/-FluxCD-5468FF?style=flat-square&logo=flux&logoColor=white)
@@ -26,7 +25,7 @@ const jeffry = {
   location: "Switzerland",
   background: "Trained software engineer",
   currently: "Switching into DevOps / platform engineering",
-  loves: ["system engineering", "GitOps", "homelabbing", "automating everything"],
+  loves: ["software- and system engineering", "GitOps", "homelabbing", "automating everything"],
   code: [PHP, TypeScript, Python, Go, Bash],
   web: [Laravel, Vue, Inertia, Tailwind, Next.js],
   platform: [k3s, FluxCD, ArgoCD, Terraform, Ansible, Docker, Vault],
@@ -36,13 +35,13 @@ const jeffry = {
     delivery: "push to GitHub -> Buildpacks -> auto-deploy",
     smartHome: "Home Assistant, GitOps-managed"
   },
-  dailyDriver: [macOS, zsh, tmux, Ghostty, PhpStorm, "Claude Code"],
+  dailyDriver: [macOS, zsh, tmux, Ghostty, PhpStorm],
   currentFocus: "Turning my homelab into a showcase of production-grade GitOps",
   askMeAbout: ["Laravel", "Kubernetes GitOps", "macOS for Windows people", "dotfiles"]
 }
 ```
 
-💬 **I love talking shop** about infrastructure, automation and developer tooling. Open an issue on any of my repos and say hi.
+💬 **I love talking** about infrastructure, automation and developer tooling. Open an issue on any of my repos and say hi.
 
 ---
 
