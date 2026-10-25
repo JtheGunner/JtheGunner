@@ -2,7 +2,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/JtheGunner/JtheGunner/output/gravity-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/JtheGunner/JtheGunner/output/gravity-light.svg">
-    <img alt="Jeffry" src="https://raw.githubusercontent.com/JtheGunner/JtheGunner/output/gravity-light.svg" width="100%">
+    <img alt="Contribution graph falling onto a binary title" src="https://raw.githubusercontent.com/JtheGunner/JtheGunner/output/gravity-light.svg" width="100%">
   </picture>
 </div>
 
