@@ -1,0 +1,43 @@
+name: Contribution gravity
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 3 * * *'
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  gravity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Generate light-mode title
+        uses: flycran/github-gravity@v1
+        with:
+          username: JtheGunner
+          text: Jeffry
+          text-color: black
+          output-path: deploy/gravity-light.svg
+
+      - name: Generate dark-mode title
+        uses: flycran/github-gravity@v1
+        with:
+          username: JtheGunner
+          text: Jeffry
+          text-color: white
+          output-path: deploy/gravity-dark.svg
+
+      - name: Publish to the output branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./deploy
+          publish_branch: output
+          keep_files: false
+          force_orphan: true
