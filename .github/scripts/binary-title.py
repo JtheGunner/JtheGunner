@@ -2,7 +2,7 @@
 
 The gravity action renders a single text line and uses its own glyph paths as collision obstacles.
 This script keeps those exact glyph paths (so the falling blocks land on what is drawn), recolors
-every digit (ones highlighted, zeros muted) and appends the glyphs of a second render below, then crops the empty space beneath.
+every digit (ones highlighted, zeros muted) and appends the glyphs of a second render below.
 
 Usage: binary-title.py <gravity-svg> <second-row-svg> <light|dark>
 """
@@ -15,7 +15,6 @@ PALETTE = {
     "dark": {"0": "#6e7681", "1": "#3fb950"},
 }
 ROW_GAP = 64
-BOTTOM_MARGIN = 40
 GLYPH_GROUP = re.compile(r'\n\s*<g transform="translate\(([\d.]+), ([\d.]+)\) scale\(3\)">(.*?)</g>', re.S)
 GLYPH_PATH = re.compile(r'<path d="([^"]*)" fill="[^"]*" />')
 
@@ -35,13 +34,6 @@ def recolor(glyphs, row, palette):
     return "\n    ".join(f'<path d="{d}" fill="{palette[ch]}" />' for d, ch in zip(glyphs, digits))
 
 
-def crop_below_text(svg, height):
-    """Cut the empty world below the text; blocks that miss the text fall out of view."""
-    height = round(height)
-    svg = re.sub(r'(<svg[^>]*?\sheight=")\d+(")', rf"\g<1>{height}\2", svg, count=1)
-    return re.sub(r'viewBox="0 0 (\d+) \d+"', rf'viewBox="0 0 \1 {height}"', svg, count=1)
-
-
 def main(main_path, second_path, theme):
     palette = PALETTE[theme]
     svg = open(main_path, encoding="utf-8").read()
@@ -53,7 +45,7 @@ def main(main_path, second_path, theme):
         f'\n  <g transform="translate({x}, {y + ROW_GAP}) scale(3)">\n    {recolor(second, ROWS[1], palette)}\n  </g>'
     )
     svg = svg[: match.start()] + groups + svg[match.end():]
-    open(main_path, "w", encoding="utf-8").write(crop_below_text(svg, y + ROW_GAP + BOTTOM_MARGIN))
+    open(main_path, "w", encoding="utf-8").write(svg)
 
 
 if __name__ == "__main__":
