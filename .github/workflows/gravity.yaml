@@ -23,6 +23,8 @@ jobs:
           username: JtheGunner
           text: Jeffry
           text-color: black
+          font-size: 140
+          text-top: 30
           output-path: deploy/gravity-light.svg
 
       - name: Generate dark-mode title
@@ -31,6 +33,8 @@ jobs:
           username: JtheGunner
           text: Jeffry
           text-color: white
+          font-size: 140
+          text-top: 30
           output-path: deploy/gravity-dark.svg
 
       - name: Publish to the output branch

@@ -9,12 +9,15 @@
 <h2>Hi, I'm Jeffry 👋</h2>
 <p><em>Software engineer, moving into DevOps · based in Switzerland 🇨🇭</em></p>
 
+![PHP](https://img.shields.io/badge/-PHP-777BB4?style=flat-square&logo=php&logoColor=white)
 ![Laravel](https://img.shields.io/badge/-Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
 ![Vue](https://img.shields.io/badge/-Vue-42b883?style=flat-square&logo=vuedotjs&logoColor=white)
 ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+![Bash](https://img.shields.io/badge/-Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/-k3s-FFC61C?style=flat-square&logo=k3s&logoColor=black)
 ![FluxCD](https://img.shields.io/badge/-FluxCD-5468FF?style=flat-square&logo=flux&logoColor=white)
 ![Terraform](https://img.shields.io/badge/-Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white)
+![Ansible](https://img.shields.io/badge/-Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white)
 
 ### A little more about me...
 
@@ -45,8 +48,8 @@ const jeffry = {
 
 ### 🗂️ Things I've published
 
-- [homelab-gitops](https://github.com/JtheGunner/homelab-gitops): web apps without a Dockerfile, auto-deployed onto k3s
 - [omnishell](https://github.com/JtheGunner/omnishell): one shell setup for macOS and Linux, written in Go
 - [dotfiles](https://github.com/JtheGunner/dotfiles): layered terminal setup (zsh, tmux, Ghostty, Stow)
 - [laravel-admin-dashboard-template](https://github.com/JtheGunner/laravel-admin-dashboard-template): Laravel 13 + Inertia + Vue admin starter
 - [ha-youtrack](https://github.com/JtheGunner/ha-youtrack) · [ha-github-pulse](https://github.com/JtheGunner/ha-github-pulse): Home Assistant integrations
+- [homelab-gitops](https://github.com/JtheGunner/homelab-gitops): web apps without a Dockerfile, auto-deployed onto k3s
