@@ -21,21 +21,47 @@ jobs:
         uses: flycran/github-gravity@v1
         with:
           username: JtheGunner
-          text: Jeffry
+          text: "01001010 01100101 01100110"
           text-color: black
-          font-size: 140
-          text-top: 30
+          font-size: 56
+          text-top: 200
           output-path: deploy/gravity-light.svg
+
+      - name: Render second binary row (light)
+        uses: flycran/github-gravity@v1
+        with:
+          username: JtheGunner
+          text: "01100110 01110010 01111001"
+          text-color: black
+          font-size: 56
+          text-top: 200
+          output-path: row2-light.svg
+
+      - name: Combine binary rows (light)
+        run: python3 .github/scripts/binary-title.py deploy/gravity-light.svg row2-light.svg light
 
       - name: Generate dark-mode title
         uses: flycran/github-gravity@v1
         with:
           username: JtheGunner
-          text: Jeffry
+          text: "01001010 01100101 01100110"
           text-color: white
-          font-size: 140
-          text-top: 30
+          font-size: 56
+          text-top: 200
           output-path: deploy/gravity-dark.svg
+
+      - name: Render second binary row (dark)
+        uses: flycran/github-gravity@v1
+        with:
+          username: JtheGunner
+          text: "01100110 01110010 01111001"
+          text-color: white
+          font-size: 56
+          text-top: 200
+          output-path: row2-dark.svg
+
+      - name: Combine binary rows (dark)
+        run: python3 .github/scripts/binary-title.py deploy/gravity-dark.svg row2-dark.svg dark
 
       - name: Publish to the output branch
         uses: peaceiris/actions-gh-pages@v4
