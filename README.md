@@ -10,7 +10,6 @@
 <p><em>Software engineer, moving into DevOps · based in Switzerland 🇨🇭</em></p>
 
 ![PHP](https://img.shields.io/badge/-PHP-777BB4?style=flat-square&logo=php&logoColor=white)
-![Laravel](https://img.shields.io/badge/-Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
 ![Vue](https://img.shields.io/badge/-Vue-42b883?style=flat-square&logo=vuedotjs&logoColor=white)
 ![Bash](https://img.shields.io/badge/-Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/-k3s-FFC61C?style=flat-square&logo=k3s&logoColor=black)
