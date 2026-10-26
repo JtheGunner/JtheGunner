@@ -15,10 +15,10 @@ jobs:
   gravity:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
 
       - name: Generate light-mode title
-        uses: flycran/github-gravity@v1
+        uses: flycran/github-gravity@dcf505423ea1aeb5b0794c3ed53c224beaff00e1 # v1
         with:
           username: JtheGunner
           text: "01001010 01100101 01100110"
@@ -28,7 +28,7 @@ jobs:
           output-path: deploy/title-light.svg
 
       - name: Render second binary row (light)
-        uses: flycran/github-gravity@v1
+        uses: flycran/github-gravity@dcf505423ea1aeb5b0794c3ed53c224beaff00e1 # v1
         with:
           username: JtheGunner
           text: "01100110 01110010 01111001"
@@ -41,7 +41,7 @@ jobs:
         run: python3 .github/scripts/binary-title.py deploy/title-light.svg row2-light.svg light
 
       - name: Generate dark-mode title
-        uses: flycran/github-gravity@v1
+        uses: flycran/github-gravity@dcf505423ea1aeb5b0794c3ed53c224beaff00e1 # v1
         with:
           username: JtheGunner
           text: "01001010 01100101 01100110"
@@ -51,7 +51,7 @@ jobs:
           output-path: deploy/title-dark.svg
 
       - name: Render second binary row (dark)
-        uses: flycran/github-gravity@v1
+        uses: flycran/github-gravity@dcf505423ea1aeb5b0794c3ed53c224beaff00e1 # v1
         with:
           username: JtheGunner
           text: "01100110 01110010 01111001"
@@ -64,7 +64,7 @@ jobs:
         run: python3 .github/scripts/binary-title.py deploy/title-dark.svg row2-dark.svg dark
 
       - name: Publish to the output branch
-        uses: peaceiris/actions-gh-pages@v4
+        uses: peaceiris/actions-gh-pages@84c30a85c19949d7eee79c4ff27748b70285e453 # v4.1.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./deploy
