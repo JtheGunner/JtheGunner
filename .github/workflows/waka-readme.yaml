@@ -2,8 +2,10 @@ name: Waka README
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 4 * * *"
+  # Paused while the README section is hidden; the action would write into the
+  # commented-out markers. Re-enable together with the section.
+  # schedule:
+  #   - cron: "0 4 * * *"
 
 jobs:
   waka-readme:
