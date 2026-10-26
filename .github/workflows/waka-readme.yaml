@@ -5,14 +5,13 @@ on:
   schedule:
     - cron: "0 4 * * *"
 
-permissions:
-  contents: write
-
 jobs:
   waka-readme:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-      - uses: athul/waka-readme@master
+      - uses: athul/waka-readme@8991b596d85696d98ea96f775390a1bbe266c8c9 # master, 2026-10-23
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           API_BASE_URL: https://wakapi.xn--wrm-hoa.li/api
