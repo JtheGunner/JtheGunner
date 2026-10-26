@@ -47,6 +47,16 @@ const jeffry = {
 ### 📊 What I've been coding in
 
 <!--START_SECTION:waka-->
+
+```txt
+Markdown         10 hrs 18 mins        ███████████▒░░░░░░░░░░░░░   45.19 %
+Python           3 hrs 15 mins         ███▓░░░░░░░░░░░░░░░░░░░░░   14.29 %
+Unknown          2 hrs 8 mins          ██▒░░░░░░░░░░░░░░░░░░░░░░   09.36 %
+YAML             2 hrs 8 mins          ██▒░░░░░░░░░░░░░░░░░░░░░░   09.34 %
+PHP              1 hrs 9 mins          █▒░░░░░░░░░░░░░░░░░░░░░░░   05.01 %
+Json             0 hrs 56 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   04.09 %
+```
+
 <!--END_SECTION:waka-->
 
 > [!NOTE]
