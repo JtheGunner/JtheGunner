@@ -18,6 +18,7 @@ jobs:
           SECTION_NAME: waka
           TIME_RANGE: last_30_days
           LANG_COUNT: 6
+          IGNORED_LANGUAGES: Unknown Markdown
           SHOW_TITLE: false
           SHOW_TIME: true
           SHOW_TOTAL: false
