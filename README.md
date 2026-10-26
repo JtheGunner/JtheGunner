@@ -44,6 +44,16 @@ const jeffry = {
 
 ---
 
+### 📊 What I've been coding in
+
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
+
+> [!NOTE]
+> These numbers come from my self-hosted [Wakapi](https://wakapi.xn--wrm-hoa.li) and cover the last 30 days of editor time, including private and infrastructure work. They measure where my time went, not how good I am at a language.
+
+---
+
 ### 🗂️ Things I've published
 
 - [omnishell](https://github.com/JtheGunner/omnishell): one shell setup for macOS and Linux, written in Go
