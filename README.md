@@ -44,6 +44,26 @@ const jeffry = {
 
 ---
 
+### 📈 GitHub at a glance
+
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://gitcard-studio.xn--wrm-hoa.li/api/languages?username=JtheGunner&locale=en&theme=dark">
+  <source media="(prefers-color-scheme: light)" srcset="https://gitcard-studio.xn--wrm-hoa.li/api/languages?username=JtheGunner&locale=en&theme=light">
+  <img alt="Most used languages across my public repositories" src="https://gitcard-studio.xn--wrm-hoa.li/api/languages?username=JtheGunner&locale=en&theme=light" width="49%">
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://gitcard-studio.xn--wrm-hoa.li/api/commit-activity?username=JtheGunner&locale=en&theme=dark">
+  <source media="(prefers-color-scheme: light)" srcset="https://gitcard-studio.xn--wrm-hoa.li/api/commit-activity?username=JtheGunner&locale=en&theme=light">
+  <img alt="When I commit, by weekday and hour" src="https://gitcard-studio.xn--wrm-hoa.li/api/commit-activity?username=JtheGunner&locale=en&theme=light" width="49%">
+</picture>
+</div>
+
+> [!NOTE]
+> The language card counts the public repositories on my GitHub account by code size. It is not a measure of my skill, and much of my infrastructure work lives in private repositories that it does not see.
+
+---
+
 [//]: # (### 📊 What I've been coding in)
 
 [//]: # ()
