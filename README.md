@@ -44,23 +44,34 @@ const jeffry = {
 
 ---
 
-### 📊 What I've been coding in
+[//]: # (### 📊 What I've been coding in)
 
-<!--START_SECTION:waka-->
+[//]: # ()
+[//]: # (<!--START_SECTION:waka-->)
 
-```txt
-YAML             5 hrs 4 mins          ████░░░░░░░░░░░░░░░░░░░░░   15.81 %
-Python           3 hrs 55 mins         ███░░░░░░░░░░░░░░░░░░░░░░   12.21 %
-PHP              1 hrs 16 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.98 %
-Bash             0 hrs 48 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.52 %
-```
+[//]: # ()
+[//]: # (```txt)
 
-<!--END_SECTION:waka-->
+[//]: # (YAML             5 hrs 4 mins          ████░░░░░░░░░░░░░░░░░░░░░   15.81 %)
 
-> [!NOTE]
-> These numbers come from my self-hosted [Wakapi](https://wakapi.xn--wrm-hoa.li) and cover the last 30 days of editor time, including private and infrastructure work. They measure where my time went, not how good I am at a language.
+[//]: # (Python           3 hrs 55 mins         ███░░░░░░░░░░░░░░░░░░░░░░   12.21 %)
 
----
+[//]: # (PHP              1 hrs 16 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.98 %)
+
+[//]: # (Bash             0 hrs 48 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.52 %)
+
+[//]: # (```)
+
+[//]: # ()
+[//]: # (<!--END_SECTION:waka-->)
+
+[//]: # ()
+[//]: # (> [!NOTE])
+
+[//]: # (> These numbers come from my self-hosted [Wakapi]&#40;https://wakapi.xn--wrm-hoa.li&#41; and cover the last 30 days of editor time, including private and infrastructure work. They measure where my time went, not how good I am at a language.)
+
+[//]: # ()
+[//]: # (---)
 
 ### 🗂️ Things I've published
 
